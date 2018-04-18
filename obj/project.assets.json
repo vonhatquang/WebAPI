@@ -12546,13 +12546,13 @@
       "projectName": "BusinessManagementWebApi",
       "projectPath": "/Users/voquang/Documents/GitHub/WebAPI/BusinessManagementWebApi.csproj",
       "packagesPath": "/Users/voquang/.nuget/packages/",
-      "outputPath": "/Users/voquang/Documents/GitHub/WebAPI/obj",
+      "outputPath": "/Users/voquang/Documents/GitHub/WebAPI/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/voquang/.config/NuGet/NuGet.Config"
+        "/Users/voquang/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -12574,15 +12574,14 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.NETCore.App": {
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "2.0",
-            "autoReferenced": true
-          },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
-            "version": "2.0.6"
+            "version": "[2.0.6, )"
+          },
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "[2.0.0, )",
+            "autoReferenced": true
           }
         },
         "imports": [
