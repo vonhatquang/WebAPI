@@ -6,18 +6,24 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     public class ValuesController : Controller
     {
         // GET api/values
-        [HttpGet]
+        //[HttpGet]
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
         }
+        
+        
+        public int Calculate2Number(string a, string b)
+        {
+            return (!"".Equals(a)?int.Parse(a):0) +(!"".Equals(b)?int.Parse(b):0);
+        }
 
         // GET api/values/5
-        [HttpGet("{id}")]
+        //[HttpGet("{id}")]
         public string Get(int id)
         {
             return "value";
