@@ -12542,11 +12542,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/voquang/Documents/GitHub/WebAPI/BusinessManagementWebApi.csproj",
-      "projectName": "BusinessManagementWebApi",
-      "projectPath": "/Users/voquang/Documents/GitHub/WebAPI/BusinessManagementWebApi.csproj",
+      "projectUniqueName": "/Users/voquang/Documents/GitHub/WebApi/WebApi.csproj",
+      "projectName": "WebApi",
+      "projectPath": "/Users/voquang/Documents/GitHub/WebApi/WebApi.csproj",
       "packagesPath": "/Users/voquang/.nuget/packages/",
-      "outputPath": "/Users/voquang/Documents/GitHub/WebAPI/obj/",
+      "outputPath": "/Users/voquang/Documents/GitHub/WebApi/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

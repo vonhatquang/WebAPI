@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessManagementWebApi", "BusinessManagementWebApi.csproj", "{02AB602B-6DBB-4C98-9F5E-5FAA66199301}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi.csproj", "{02AB602B-6DBB-4C98-9F5E-5FAA66199301}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

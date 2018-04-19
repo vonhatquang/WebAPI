@@ -21,16 +21,16 @@
   },
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "BusinessManagementWebApi/1.0.0": {
+      "WebApi/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.6",
           "Microsoft.NETCore.App": "2.0.0"
         },
         "runtime": {
-          "BusinessManagementWebApi.dll": {}
+          "WebApi.dll": {}
         },
         "compile": {
-          "BusinessManagementWebApi.dll": {}
+          "WebApi.dll": {}
         }
       },
       "Libuv/1.10.0": {
@@ -3973,7 +3973,7 @@
     }
   },
   "libraries": {
-    "BusinessManagementWebApi/1.0.0": {
+    "WebApi/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
