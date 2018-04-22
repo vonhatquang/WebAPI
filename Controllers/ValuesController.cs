@@ -6,45 +6,105 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebApi.Controllers
 {
+    /* [Route("api/[controller]/[action]")]*/
     [Route("api/[controller]/[action]")]
     public class ValuesController : Controller
-    {
-        // GET api/values
-        //[HttpGet]
-        public IEnumerable<string> Get()
+    {        
+        /*[HttpGet]
+        public string GetDTO(string a)
         {
-            return new string[] { "value1", "value2" };
+            return a;
+        }
+
+        [HttpGet]
+        public IEnumerable<string> ListDTO(string a, string b){
+            return new string[] { a, b };
         }
         
-        
-        public int Calculate2Number(string a, string b)
+
+        // POST api/values
+        [HttpPost]
+        public string Post([FromBody]string a)
         {
-            return (!"".Equals(a)?int.Parse(a):0) +(!"".Equals(b)?int.Parse(b):0);
+            return "Post Value : " + a;
+        }
+
+        // PUT api/values/5
+        //[HttpPut("{id}")]
+        [HttpPut]
+        public string Put(string a)
+        {
+            return "Put Value:"+ a;
+        }
+
+        // DELETE api/values/5
+        //[HttpDelete("{id}")]
+        [HttpDelete]
+        public string Delete(string a)
+        {
+            return "Delete Value:" + a;
+        }
+        */
+
+        [HttpGet]
+        public IEnumerable<PostItem> ListCustom()
+        {
+            PostItem postItem0 = new PostItem(){value="ListCustom 0"};
+            PostItem postItem1 = new PostItem(){value="ListCustom 1"};
+            return new PostItem[] { postItem0, postItem1 };
         }
 
         // GET api/values/5
-        //[HttpGet("{id}")]
-        public string Get(int id)
+        [HttpGet]
+        public PostItem GetCustom(int id2)
         {
-            return "value";
+            PostItem postItem0 = new PostItem(){value="GetCustom 0"};
+            PostItem postItem1 = new PostItem(){value="GetCustom 1"};
+            return new PostItem[] { postItem0, postItem1 }[id2];
+        }
+
+
+        [HttpGet]
+        public IEnumerable<PostItem> List()
+        {
+            PostItem postItem0 = new PostItem(){value="List 0"};
+            PostItem postItem1 = new PostItem(){value="List 1"};
+            return new PostItem[] { postItem0, postItem1 };
+        }
+
+        // GET api/values/5
+        [HttpGet("{id}")]
+        public PostItem Get(int id)
+        {
+            PostItem postItem0 = new PostItem(){value="Get 0"};
+            PostItem postItem1 = new PostItem(){value="Get 1"};
+            return new PostItem[] { postItem0, postItem1 }[id];
         }
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody]string value)
+        public PostItem Post([FromBody]PostItem postItem)
         {
+            PostItem postItem0 = new PostItem(){value="Post"}; 
+            postItem.value = postItem.value + "-" + postItem0.value;
+            return postItem;
         }
 
         // PUT api/values/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
+        public PostItem Put(int id, [FromBody]PostItem postItem)
         {
+            PostItem postItem0 = new PostItem(){value="Put"}; 
+            postItem.value = postItem.value + "-" + postItem0.value;
+            return postItem;
         }
 
         // DELETE api/values/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public string Delete(int id)
         {
+            PostItem postItem0 = new PostItem(){value="Delete"}; 
+            return "Delete Value : " + id.ToString() + " - " + postItem0.value;
         }
     }
 }

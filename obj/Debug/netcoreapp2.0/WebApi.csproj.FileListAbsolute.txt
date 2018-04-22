@@ -1,3 +1,13 @@
+D:/Work/Core App/WebApi/bin/Debug/netcoreapp2.0/WebApi.deps.json
+D:/Work/Core App/WebApi/bin/Debug/netcoreapp2.0/WebApi.runtimeconfig.json
+D:/Work/Core App/WebApi/bin/Debug/netcoreapp2.0/WebApi.runtimeconfig.dev.json
+D:/Work/Core App/WebApi/bin/Debug/netcoreapp2.0/WebApi.dll
+D:/Work/Core App/WebApi/bin/Debug/netcoreapp2.0/WebApi.pdb
+D:/Work/Core App/WebApi/obj/Debug/netcoreapp2.0/WebApi.csproj.CoreCompileInputs.cache
+D:/Work/Core App/WebApi/obj/Debug/netcoreapp2.0/WebApi.AssemblyInfoInputs.cache
+D:/Work/Core App/WebApi/obj/Debug/netcoreapp2.0/WebApi.AssemblyInfo.cs
+D:/Work/Core App/WebApi/obj/Debug/netcoreapp2.0/WebApi.dll
+D:/Work/Core App/WebApi/obj/Debug/netcoreapp2.0/WebApi.pdb
 /Users/voquang/Documents/GitHub/WebApi/bin/Debug/netcoreapp2.0/WebApi.deps.json
 /Users/voquang/Documents/GitHub/WebApi/bin/Debug/netcoreapp2.0/WebApi.runtimeconfig.json
 /Users/voquang/Documents/GitHub/WebApi/bin/Debug/netcoreapp2.0/WebApi.runtimeconfig.dev.json
