@@ -46,6 +46,7 @@ namespace WebApi.Controllers
         }
         */
 
+        // GET api/values/ListCustom
         [HttpGet]
         public IEnumerable<PostItem> ListCustom()
         {
@@ -54,7 +55,7 @@ namespace WebApi.Controllers
             return new PostItem[] { postItem0, postItem1 };
         }
 
-        // GET api/values/5
+        // GET api/values/GetCustom?id2=5
         [HttpGet]
         public PostItem GetCustom(int id2)
         {
@@ -63,7 +64,7 @@ namespace WebApi.Controllers
             return new PostItem[] { postItem0, postItem1 }[id2];
         }
 
-
+        // GET api/values/List
         [HttpGet]
         public IEnumerable<PostItem> List()
         {
@@ -72,7 +73,7 @@ namespace WebApi.Controllers
             return new PostItem[] { postItem0, postItem1 };
         }
 
-        // GET api/values/5
+        // GET api/values/Get/5
         [HttpGet("{id}")]
         public PostItem Get(int id)
         {
@@ -81,7 +82,7 @@ namespace WebApi.Controllers
             return new PostItem[] { postItem0, postItem1 }[id];
         }
 
-        // POST api/values
+        // POST api/values/Post
         [HttpPost]
         public PostItem Post([FromBody]PostItem postItem)
         {
@@ -90,7 +91,7 @@ namespace WebApi.Controllers
             return postItem;
         }
 
-        // PUT api/values/5
+        // PUT api/values/Put/5
         [HttpPut("{id}")]
         public PostItem Put(int id, [FromBody]PostItem postItem)
         {
@@ -99,7 +100,7 @@ namespace WebApi.Controllers
             return postItem;
         }
 
-        // DELETE api/values/5
+        // DELETE api/values/Delete/5
         [HttpDelete("{id}")]
         public string Delete(int id)
         {
