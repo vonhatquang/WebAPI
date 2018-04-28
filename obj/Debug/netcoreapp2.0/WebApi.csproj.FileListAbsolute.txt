@@ -18,3 +18,13 @@ D:\Work\Core App\WebAPI\obj\Debug\netcoreapp2.0\WebApi.AssemblyInfoInputs.cache
 D:\Work\Core App\WebAPI\obj\Debug\netcoreapp2.0\WebApi.AssemblyInfo.cs
 D:\Work\Core App\WebAPI\obj\Debug\netcoreapp2.0\WebApi.dll
 D:\Work\Core App\WebAPI\obj\Debug\netcoreapp2.0\WebApi.pdb
+C:\Users\nhatq\Documents\GitHub\WebAPI\bin\Debug\netcoreapp2.0\WebApi.deps.json
+C:\Users\nhatq\Documents\GitHub\WebAPI\bin\Debug\netcoreapp2.0\WebApi.runtimeconfig.json
+C:\Users\nhatq\Documents\GitHub\WebAPI\bin\Debug\netcoreapp2.0\WebApi.runtimeconfig.dev.json
+C:\Users\nhatq\Documents\GitHub\WebAPI\bin\Debug\netcoreapp2.0\WebApi.dll
+C:\Users\nhatq\Documents\GitHub\WebAPI\bin\Debug\netcoreapp2.0\WebApi.pdb
+C:\Users\nhatq\Documents\GitHub\WebAPI\obj\Debug\netcoreapp2.0\WebApi.csproj.CoreCompileInputs.cache
+C:\Users\nhatq\Documents\GitHub\WebAPI\obj\Debug\netcoreapp2.0\WebApi.AssemblyInfoInputs.cache
+C:\Users\nhatq\Documents\GitHub\WebAPI\obj\Debug\netcoreapp2.0\WebApi.AssemblyInfo.cs
+C:\Users\nhatq\Documents\GitHub\WebAPI\obj\Debug\netcoreapp2.0\WebApi.dll
+C:\Users\nhatq\Documents\GitHub\WebAPI\obj\Debug\netcoreapp2.0\WebApi.pdb
