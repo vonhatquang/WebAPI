@@ -28,3 +28,13 @@ C:\Users\nhatq\Documents\GitHub\WebAPI\obj\Debug\netcoreapp2.0\WebApi.AssemblyIn
 C:\Users\nhatq\Documents\GitHub\WebAPI\obj\Debug\netcoreapp2.0\WebApi.AssemblyInfo.cs
 C:\Users\nhatq\Documents\GitHub\WebAPI\obj\Debug\netcoreapp2.0\WebApi.dll
 C:\Users\nhatq\Documents\GitHub\WebAPI\obj\Debug\netcoreapp2.0\WebApi.pdb
+C:\Users\Vo Nhat Quang\source\repos\WebAPI\bin\Debug\netcoreapp2.0\WebApi.deps.json
+C:\Users\Vo Nhat Quang\source\repos\WebAPI\bin\Debug\netcoreapp2.0\WebApi.runtimeconfig.json
+C:\Users\Vo Nhat Quang\source\repos\WebAPI\bin\Debug\netcoreapp2.0\WebApi.runtimeconfig.dev.json
+C:\Users\Vo Nhat Quang\source\repos\WebAPI\bin\Debug\netcoreapp2.0\WebApi.dll
+C:\Users\Vo Nhat Quang\source\repos\WebAPI\bin\Debug\netcoreapp2.0\WebApi.pdb
+C:\Users\Vo Nhat Quang\source\repos\WebAPI\obj\Debug\netcoreapp2.0\WebApi.csproj.CoreCompileInputs.cache
+C:\Users\Vo Nhat Quang\source\repos\WebAPI\obj\Debug\netcoreapp2.0\WebApi.AssemblyInfoInputs.cache
+C:\Users\Vo Nhat Quang\source\repos\WebAPI\obj\Debug\netcoreapp2.0\WebApi.AssemblyInfo.cs
+C:\Users\Vo Nhat Quang\source\repos\WebAPI\obj\Debug\netcoreapp2.0\WebApi.dll
+C:\Users\Vo Nhat Quang\source\repos\WebAPI\obj\Debug\netcoreapp2.0\WebApi.pdb
